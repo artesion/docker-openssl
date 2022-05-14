@@ -1,5 +1,5 @@
 FROM alpine
-LABEL version=0.1.0-qa.1
+LABEL version=0.1.0
 
 RUN apk update
 RUN apk add openssl
