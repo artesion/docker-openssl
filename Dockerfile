@@ -1,5 +1,5 @@
 FROM alpine
-LABEL version=1.0.0-qa.1 openssl=1.1.1o distro=alpine
+LABEL version=1.0.0 openssl=1.1.1o distro=alpine
 
 RUN apk update
 RUN apk add openssl
